@@ -1,10 +1,15 @@
-import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/header";
+import MainPage from "./pages/main-page";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">hej</h1>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
