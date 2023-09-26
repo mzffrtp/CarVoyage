@@ -9,3 +9,8 @@ export interface ButtonProps {
   textStyles?: string;
   isDisabled?: boolean;
 }
+
+export interface Option {
+  label: string;
+  value: string;
+}
