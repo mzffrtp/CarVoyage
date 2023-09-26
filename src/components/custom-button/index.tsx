@@ -1,4 +1,4 @@
-import { ButtonProps } from "../types";
+import { CustomButtonProps } from "../types";
 
 export default function CustomButton({
   title,
@@ -8,7 +8,7 @@ export default function CustomButton({
   icon,
   textStyles,
   isDisabled,
-}: ButtonProps) {
+}: CustomButtonProps) {
   return (
     <button
       disabled={false}

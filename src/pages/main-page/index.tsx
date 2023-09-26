@@ -3,7 +3,7 @@ import SearchBar from "@/components/searchbar";
 
 export default function MainPage() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Hero />
       <div className="mt-12 padding-x padding-y max-width">
         <div className="home__text-container">
