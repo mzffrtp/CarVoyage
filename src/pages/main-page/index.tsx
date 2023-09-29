@@ -7,7 +7,7 @@ export default function MainPage() {
       <Hero />
       <div className="mt-12 padding-x padding-y max-width">
         <div className="home__text-container">
-          <h1 className="text-4xl font-extrabold">Car Catalog</h1>
+          <h1 className="text-4xl font-extrabold">Car Catalogue</h1>
           <p>Discover the cars</p>
         </div>
         <div className="home__filters">
